@@ -9,7 +9,7 @@ It is wrapper of epubcheck(http://code.google.com/p/epubcheck/).
 
 == Requirements
 
-  * Java Runtime (1.5 or above)
+* Java Runtime (1.5 or above)
 
 == Copyright
 
