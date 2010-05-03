@@ -1,0 +1,16 @@
+= epubcheck
+
+Command-line ePub check tool.
+It is wrapper of epubcheck(http://code.google.com/p/epubcheck/).
+
+== Usage
+
+  epubcheck file.epub
+
+== Requirements
+
+  * Java Runtime (1.5 or above)
+
+== Copyright
+
+Copyright (c) 2010 jugyo. See LICENSE for details.
