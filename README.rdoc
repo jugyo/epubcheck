@@ -3,6 +3,10 @@
 Command-line ePub check tool.
 It is wrapper of epubcheck(http://code.google.com/p/epubcheck/).
 
+== Install
+
+  gem install epubcheck
+
 == Usage
 
   epubcheck file.epub
