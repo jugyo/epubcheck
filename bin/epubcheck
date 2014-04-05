@@ -1,4 +1,4 @@
 #!/usr/bin/env ruby
 
-jar = File.join(File.dirname(__FILE__), '/../lib/epubcheck-3.0/epubcheck-3.0.jar')
+jar = File.join(File.dirname(__FILE__), '/../lib/epubcheck-3.0.1/epubcheck-3.0.1.jar')
 system 'java', '-jar', jar, ARGV[0]
