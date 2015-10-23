@@ -6,12 +6,12 @@
 
 Gem::Specification.new do |s|
   s.name = "epubcheck"
-  s.version = "3.0.1"
+  s.version = "4.0.1"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.require_paths = ["lib"]
   s.authors = ["jugyo"]
-  s.date = "2014-04-05"
+  s.date = "2015-10-24"
   s.description = "This is a command-line ePub check tool. It is wrapper of epubcheck(http://code.google.com/p/epubcheck/)."
   s.email = "jugyo.org@gmail.com"
   s.executables = ["epubcheck"]
@@ -20,27 +20,30 @@ Gem::Specification.new do |s|
     "README.rdoc"
   ]
   s.files = [
-    "lib/epubcheck-1.0.5/COPYING.txt",
-    "lib/epubcheck-1.0.5/README.txt",
-    "lib/epubcheck-1.0.5/epubcheck-1.0.5.jar",
-    "lib/epubcheck-1.0.5/jing_license.txt",
-    "lib/epubcheck-1.0.5/lib/saxon.jar",
-    "lib/epubcheck-3.0.1/COPYING.txt",
-    "lib/epubcheck-3.0.1/README.txt",
-    "lib/epubcheck-3.0.1/THIRD-PARTY.txt",
-    "lib/epubcheck-3.0.1/epubcheck-3.0.1.jar",
-    "lib/epubcheck-3.0.1/lib/Saxon-HE-9.4.0.6.jar",
-    "lib/epubcheck-3.0.1/lib/commons-compress-1.4.1.jar",
-    "lib/epubcheck-3.0.1/lib/guava-13.0.1.jar",
-    "lib/epubcheck-3.0.1/lib/jing-20120724.0.0.jar",
-    "lib/epubcheck-3.0.1/lib/sac-1.3.jar",
-    "lib/epubcheck-3.0.1/licenses/Apache-2.0.txt",
-    "lib/epubcheck-3.0.1/licenses/BSD-3-Clause.txt",
-    "lib/epubcheck-3.0.1/licenses/MPL-1.0.txt",
-    "lib/epubcheck-3.0.1/licenses/W3C.txt"
+    "lib/epubcheck-4.0.1/COPYING.txt",
+    "lib/epubcheck-4.0.1/README.txt",
+    "lib/epubcheck-4.0.1/THIRD-PARTY.txt",
+    "lib/epubcheck-4.0.1/epubcheck.jar",
+    "lib/epubcheck-4.0.1/lib/Saxon-HE-9.5.1-5.jar",
+    "lib/epubcheck-4.0.1/lib/common-image-3.1.2.jar",
+    "lib/epubcheck-4.0.1/lib/common-io-3.1.2.jar",
+    "lib/epubcheck-4.0.1/lib/common-lang-3.1.2.jar",
+    "lib/epubcheck-4.0.1/lib/commons-compress-1.5.jar",
+    "lib/epubcheck-4.0.1/lib/guava-14.0.1.jar",
+    "lib/epubcheck-4.0.1/lib/imageio-core-3.1.2.jar",
+    "lib/epubcheck-4.0.1/lib/imageio-jpeg-3.1.2.jar",
+    "lib/epubcheck-4.0.1/lib/imageio-metadata-3.1.2.jar",
+    "lib/epubcheck-4.0.1/lib/jackson-core-asl-1.9.12.jar",
+    "lib/epubcheck-4.0.1/lib/jackson-mapper-asl-1.9.12.jar",
+    "lib/epubcheck-4.0.1/lib/jing-20120724.0.0.jar",
+    "lib/epubcheck-4.0.1/lib/sac-1.3.jar",
+    "lib/epubcheck-4.0.1/licenses/Apache-2.0.txt",
+    "lib/epubcheck-4.0.1/licenses/BSD-3-Clause.txt",
+    "lib/epubcheck-4.0.1/licenses/MPL-1.0.txt",
+    "lib/epubcheck-4.0.1/licenses/W3C.txt"
   ]
   s.homepage = "http://github.com/jugyo/epubcheck"
-  s.rubygems_version = "2.2.2"
+  s.rubygems_version = "2.4.8"
   s.summary = "command-line ePub check tool"
 end
 
