@@ -42,5 +42,8 @@ Gem::Specification.new do |s|
   s.homepage = "http://github.com/jugyo/epubcheck"
   s.rubygems_version = "2.2.2"
   s.summary = "command-line ePub check tool"
+
+  s.add_development_dependency "bundler", "~> 1.11"
+  s.add_development_dependency "rake", "~> 10.0"
 end
 
