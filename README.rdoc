@@ -1,7 +1,7 @@
 = epubcheck
 
 Command-line ePub check tool.
-It is wrapper of epubcheck(http://code.google.com/p/epubcheck/).
+It is wrapper of epubcheck(https://github.com/w3c/epubcheck).
 
 == Install
 

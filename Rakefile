@@ -6,7 +6,7 @@ begin
   Jeweler::Tasks.new do |gem|
     gem.name = "epubcheck"
     gem.summary = %Q{command-line ePub check tool}
-    gem.description = %Q{This is a command-line ePub check tool. It is wrapper of epubcheck(http://code.google.com/p/epubcheck/).}
+    gem.description = %Q{This is a command-line ePub check tool. It is wrapper of epubcheck(https://github.com/w3c/epubcheck).}
     gem.executables = ["epubcheck"]
     gem.files = Dir['lib/**/*']
     gem.email = "jugyo.org@gmail.com"

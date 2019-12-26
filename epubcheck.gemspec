@@ -12,7 +12,7 @@ Gem::Specification.new do |s|
   s.require_paths = ["lib"]
   s.authors = ["jugyo"]
   s.date = "2014-04-05"
-  s.description = "This is a command-line ePub check tool. It is wrapper of epubcheck(http://code.google.com/p/epubcheck/)."
+  s.description = "This is a command-line ePub check tool. It is wrapper of epubcheck(https://github.com/w3c/epubcheck)."
   s.email = "jugyo.org@gmail.com"
   s.executables = ["epubcheck"]
   s.extra_rdoc_files = [
